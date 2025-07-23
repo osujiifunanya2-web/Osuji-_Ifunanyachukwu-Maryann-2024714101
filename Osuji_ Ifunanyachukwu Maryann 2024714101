@@ -1,0 +1,25 @@
+Here’s your grading system as Python code:
+
+```python
+def grade(score):
+    if 70 <= score <= 100:
+        return "Grade A"
+    elif 60 <= score <= 69:
+        return "Grade B"
+    elif 50 <= score <= 59:
+        return "Grade C"
+    elif 45 <= score <= 49:
+        return "Grade D"
+    elif 40 <= score <= 44:
+        return "Grade E"
+    elif 0 <= score <= 39:
+        return "Grade F"
+    else:
+        return "Invalid score"
+
+Example usage
+score = int(input("Enter score: "))
+print("Result:", grade(score))
+```
+
+Paste this into any Python interpreter and it’ll work!
